@@ -1,0 +1,78 @@
+  body {
+    font-family: sans-serif;
+    background-color: #C3CFF3;
+    margin: 0;
+    padding: 20px;
+}
+
+#container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: beige;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+#logoArea {
+    display: flex; 
+    min-height: 30vh;
+    height: 100%;
+    position: relative;
+    border-radius: 10px 10px 0 0;
+    background: url(bubbles.jpg) center center;
+    background-size: cover;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+#logoArea img {
+    width: 100px;
+    height: auto;
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+.groupField {
+    margin-bottom: 15px;
+}
+
+.groupField label {
+    display: block;
+    margin-bottom: 5px;
+    color: black; 
+}
+
+.groupField input,
+.groupField select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #00796b;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#buttonArea {
+    text-align: center;
+}
+
+#buttonArea button {
+    background-color: #C3C7F3;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#buttonArea button:hover {
+    background-color: gray;
+}
